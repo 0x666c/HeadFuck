@@ -3,25 +3,6 @@ package headfuck;
 import java.util.stream.LongStream;
 import java.util.stream.Stream;
 
-import com.sun.jna.Library;
-import com.sun.jna.Native;
-import com.sun.jna.NativeLibrary;
-import com.sun.jna.Pointer;
-import com.sun.jna.platform.unix.LibC;
-import com.sun.jna.platform.win32.Kernel32;
-import com.sun.jna.platform.win32.User32;
-import com.sun.jna.platform.win32.WinDef.DWORD;
-import com.sun.jna.platform.win32.WinDef.DWORDByReference;
-import com.sun.jna.platform.win32.WinDef.LONG;
-import com.sun.jna.platform.win32.WinDef.LPVOID;
-import com.sun.jna.platform.win32.WinDef.ULONG;
-import com.sun.jna.platform.win32.Wincon;
-import com.sun.jna.ptr.IntByReference;
-import com.sun.jna.ptr.LongByReference;
-import com.sun.jna.win32.StdCallLibrary;
-import com.sun.jna.win32.W32APIOptions;
-import com.sun.jna.platform.win32.WinNT.HANDLE;
-
 /* hello world
 >+++++++++[<++++++++>-]<^>+++++++[<++++>-]<+^+++++++^^+++^[-]
 ">++++++++[<++++>-]<^>+++++++++++[<++++++++>-]<-^--------^+++
